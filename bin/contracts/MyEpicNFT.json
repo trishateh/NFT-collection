@@ -1,0 +1,188 @@
+{
+    "contractName": "MyEpicNFT",
+    "abi": [
+        {
+            "inputs": [],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.0+commit.c7dfd78e\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/Users/trisha/Desktop/epic-nfts/contracts/MyEpicNft.sol\":\"MyEpicNFT\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"/Users/trisha/Desktop/epic-nfts/contracts/MyEpicNft.sol\":{\"keccak256\":\"0x63340bbac52e0793c88b96a939506258f82c6acc62a2d36c15fdc70f7e644464\",\"license\":\"UNLICENSED\",\"urls\":[\"bzz-raw://43eaa96659a52d351de35f555a43e88cdbd9c6185bf60a04f08a8edaaa17d599\",\"dweb:/ipfs/QmSc843ebxUkT9C2GeoxE839VMzuXMPu3sJ1hApDs63cuM\"]},\"/Users/trisha/Desktop/epic-nfts/node_modules/hardhat/console.sol\":{\"keccak256\":\"0x72b6a1d297cd3b033d7c2e4a7e7864934bb767db6453623f1c3082c6534547f4\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://a8cb8681076e765c214e0d51cac989325f6b98e315eaae06ee0cbd5a9f084763\",\"dweb:/ipfs/QmNWGHi4zmjxQTYN3NMGnJd49jBT5dE4bxTdWEaDuJrC6N\"]}},\"version\":1}",
+    "bytecode": "608060405234801561001057600080fd5b506100596040518060400160405280601881526020017f54686973206973206d79204e465420636f6e747261637421000000000000000081525061005e60201b6100091760201c565b61011c565b6100a58160405160240161007291906100c9565b60408051601f198184030181529190526020810180516001600160e01b0390811663104c13eb60e21b179091526100a816565b50565b80516a636f6e736f6c652e6c6f67602083016000808483855afa5050505050565b6000602080835283518082850152825b818110156100f5578581018301518582016040015282016100d9565b818111156101065783604083870101525b50601f01601f1916929092016040019392505050565b60f28061012a6000396000f3fe6080604052600080fd5b604881604051602401601a9190606c565b60408051601f198184030181529190526020810180516001600160e01b031663104c13eb60e21b179052604b565b50565b80516a636f6e736f6c652e6c6f67602083016000808483855afa5050505050565b6000602080835283518082850152825b81811015609657858101830151858201604001528201607c565b8181111560a65783604083870101525b50601f01601f191692909201604001939250505056fea2646970667358221220b05289f9ae8ebae0283cfbeb8c0b301e2a01d2a7dd7e4877b9dfba6081f934e464736f6c63430008000033",
+    "deployedBytecode": "6080604052600080fd5b604881604051602401601a9190606c565b60408051601f198184030181529190526020810180516001600160e01b031663104c13eb60e21b179052604b565b50565b80516a636f6e736f6c652e6c6f67602083016000808483855afa5050505050565b6000602080835283518082850152825b81811015609657858101830151858201604001528201607c565b8181111560a65783604083870101525b50601f01601f191692909201604001939250505056fea2646970667358221220b05289f9ae8ebae0283cfbeb8c0b301e2a01d2a7dd7e4877b9dfba6081f934e464736f6c63430008000033",
+    "sourceMap": "141:97:0:-:0;;;166:70;;;;;;;;;;190:39;;;;;;;;;;;;;;;;;;:11;;;;;:39;;:::i;:::-;141:97;;5054:112:1;5103:59;5158:2;5119:42;;;;;;;;:::i;:::-;;;;-1:-1:-1;;5119:42:1;;;;;;;;;;;;;;-1:-1:-1;;;;;5119:42:1;;;-1:-1:-1;;;5119:42:1;;;;5103:15;:59;:::i;:::-;5054:112;:::o;176:288::-;264:14;;129:42;373:2;360:16;;240:21;;264:14;360:16;129:42;400:5;389:68;380:77;;335:126;;;:::o;14:603:2:-;;155:2;184;173:9;166:21;216:6;210:13;259:6;254:2;243:9;239:18;232:34;284:4;297:140;311:6;308:1;305:13;297:140;;;406:14;;;402:23;;396:30;372:17;;;391:2;368:26;361:66;326:10;;297:140;;;455:6;452:1;449:13;446:2;;;525:4;520:2;511:6;500:9;496:22;492:31;485:45;446:2;-1:-1:-1;601:2:2;580:15;-1:-1:-1;;576:29:2;561:45;;;;608:2;557:54;;135:482;-1:-1:-1;;;135:482:2:o;:::-;141:97:0;;;;;;",
+    "deployedSourceMap": "141:97:0:-:0;;;;;;5054:112:1;5103:59;5158:2;5119:42;;;;;;;;:::i;:::-;;;;-1:-1:-1;;5119:42:1;;;;;;;;;;;;;;-1:-1:-1;;;;;5119:42:1;-1:-1:-1;;;5119:42:1;;;5103:15;:59::i;:::-;5054:112;:::o;176:288::-;264:14;;129:42;373:2;360:16;;240:21;;264:14;360:16;129:42;400:5;389:68;380:77;;335:126;;;:::o;14:603:2:-;;155:2;184;173:9;166:21;216:6;210:13;259:6;254:2;243:9;239:18;232:34;284:4;297:140;311:6;308:1;305:13;297:140;;;406:14;;;402:23;;396:30;372:17;;;391:2;368:26;361:66;326:10;;297:140;;;455:6;452:1;449:13;446:2;;;525:4;520:2;511:6;500:9;496:22;492:31;485:45;446:2;-1:-1:-1;601:2:2;580:15;-1:-1:-1;;576:29:2;561:45;;;;608:2;557:54;;135:482;-1:-1:-1;;;135:482:2:o",
+    "sourcePath": "/Users/trisha/Desktop/epic-nfts/contracts/MyEpicNft.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.0+commit.c7dfd78e"
+    },
+    "ast": {
+        "absolutePath": "/Users/trisha/Desktop/epic-nfts/contracts/MyEpicNft.sol",
+        "exportedSymbols": {
+            "MyEpicNFT": [
+                13
+            ],
+            "console": [
+                8077
+            ]
+        },
+        "id": 14,
+        "license": "UNLICENSED",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    "^",
+                    "0.8",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "40:23:0"
+            },
+            {
+                "absolutePath": "/Users/trisha/Desktop/epic-nfts/node_modules/hardhat/console.sol",
+                "file": "/Users/trisha/Desktop/epic-nfts/node_modules/hardhat/console.sol",
+                "id": 2,
+                "nodeType": "ImportDirective",
+                "scope": 14,
+                "sourceUnit": 8078,
+                "src": "65:74:0",
+                "symbolAliases": [],
+                "unitAlias": ""
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 13,
+                "linearizedBaseContracts": [
+                    13
+                ],
+                "name": "MyEpicNFT",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "body": {
+                            "id": 11,
+                            "nodeType": "Block",
+                            "src": "180:56:0",
+                            "statements": [
+                                {
+                                    "expression": {
+                                        "arguments": [
+                                            {
+                                                "hexValue": "54686973206973206d79204e465420636f6e747261637421",
+                                                "id": 8,
+                                                "isConstant": false,
+                                                "isLValue": false,
+                                                "isPure": true,
+                                                "kind": "string",
+                                                "lValueRequested": false,
+                                                "nodeType": "Literal",
+                                                "src": "202:26:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_stringliteral_2a8309aaaaf0fe61d9f9677ed1543adb7b8d166a7cfedbb7ca5b37aa47cff023",
+                                                    "typeString": "literal_string \"This is my NFT contract!\""
+                                                },
+                                                "value": "This is my NFT contract!"
+                                            }
+                                        ],
+                                        "expression": {
+                                            "argumentTypes": [
+                                                {
+                                                    "typeIdentifier": "t_stringliteral_2a8309aaaaf0fe61d9f9677ed1543adb7b8d166a7cfedbb7ca5b37aa47cff023",
+                                                    "typeString": "literal_string \"This is my NFT contract!\""
+                                                }
+                                            ],
+                                            "expression": {
+                                                "id": 5,
+                                                "name": "console",
+                                                "nodeType": "Identifier",
+                                                "overloadedDeclarations": [],
+                                                "referencedDeclaration": 8077,
+                                                "src": "190:7:0",
+                                                "typeDescriptions": {
+                                                    "typeIdentifier": "t_type$_t_contract$_console_$8077_$",
+                                                    "typeString": "type(library console)"
+                                                }
+                                            },
+                                            "id": 7,
+                                            "isConstant": false,
+                                            "isLValue": false,
+                                            "isPure": false,
+                                            "lValueRequested": false,
+                                            "memberName": "log",
+                                            "nodeType": "MemberAccess",
+                                            "referencedDeclaration": 608,
+                                            "src": "190:11:0",
+                                            "typeDescriptions": {
+                                                "typeIdentifier": "t_function_internal_view$_t_string_memory_ptr_$returns$__$",
+                                                "typeString": "function (string memory) view"
+                                            }
+                                        },
+                                        "id": 9,
+                                        "isConstant": false,
+                                        "isLValue": false,
+                                        "isPure": false,
+                                        "kind": "functionCall",
+                                        "lValueRequested": false,
+                                        "names": [],
+                                        "nodeType": "FunctionCall",
+                                        "src": "190:39:0",
+                                        "tryCall": false,
+                                        "typeDescriptions": {
+                                            "typeIdentifier": "t_tuple$__$",
+                                            "typeString": "tuple()"
+                                        }
+                                    },
+                                    "id": 10,
+                                    "nodeType": "ExpressionStatement",
+                                    "src": "190:39:0"
+                                }
+                            ]
+                        },
+                        "id": 12,
+                        "implemented": true,
+                        "kind": "constructor",
+                        "modifiers": [],
+                        "name": "",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 3,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "177:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 4,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "180:0:0"
+                        },
+                        "scope": 13,
+                        "src": "166:70:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 14,
+                "src": "141:97:0"
+            }
+        ],
+        "src": "40:199:0"
+    },
+    "functionHashes": {},
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "48400",
+            "executionCost": "infinite",
+            "totalCost": "infinite"
+        }
+    }
+}
